@@ -16,7 +16,7 @@ class Counter extends Component {
         return (
             <div>
                 <p>Counter Is at : {this.state.counter}</p>
-                <button onClick={()=>this.myCounter()}>Click me to count upwards</button>
+                <button onClick={()=>this.myCounter()}>Click me to count upwards Now</button>
             </div>
         )
     }
